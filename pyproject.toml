@@ -1,0 +1,14 @@
+[project]
+name = "deepagents-deepresearch"
+version = "0.1.0"
+description = "LangChain Deep Agents deep research tutorial using the You.com Search API with livecrawl enabled."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "deepagents",
+    "langchain-anthropic",
+    "langchain-core",
+    "langgraph",
+    "python-dotenv",
+    "youdotcom",
+]
